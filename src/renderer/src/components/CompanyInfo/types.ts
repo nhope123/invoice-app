@@ -1,0 +1,5 @@
+interface CompanyInfoProps {
+
+};
+
+export { CompanyInfoProps };
