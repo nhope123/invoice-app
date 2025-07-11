@@ -7,8 +7,8 @@ import type { ClientCardProps } from './types'
 
 const ClientCard: FC<ClientCardProps> = ({ title, icon, ...rest }) => {
   return (
-    <Card>
-      <Space>
+    <Card style={{ borderRadius: '8px' }}>
+      <Space align="center">
         {icon && icon}
         <Title level={3}>{title}</Title>
       </Space>

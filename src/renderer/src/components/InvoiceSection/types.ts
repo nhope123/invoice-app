@@ -1,5 +1,5 @@
 interface InvoiceSectionProps {
-  id: number;
+  id: number | string;
   date: string;
 };
 

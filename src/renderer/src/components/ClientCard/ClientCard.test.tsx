@@ -9,8 +9,8 @@ const mockClientData: ClientCardProps = {
   name: 'Test Company Inc.',
   street: '123 Main Street',
   city: 'Test City',
-  state: 'TS',
-  zip: '12345',
+  province: 'TS',
+  postalCode: '12345',
   country: 'Test Country',
   phone: '+1 (555) 123-4567',
   email: 'test@testcompany.com'

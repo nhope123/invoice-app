@@ -8,20 +8,20 @@ const CompanyInfo: FC<CompanyInfoProps> = ({
   name,
   street,
   city,
-  state,
-  zip,
+  province,
+  postalCode,
   country,
   phone,
   email
 }) => {
   return (
-    <Flex>
+    <Flex vertical>
       <Title level={2}>{name}</Title>
       <Text>{street}</Text>
       <Text>
-        {`${city}, ${state}`}
+        {`${city}, ${province}`}
       </Text>
-      <Text>{`${country}, ${zip}`}</Text>
+      <Text>{`${country}, ${postalCode}`}</Text>
       {phone && <Text>{phone}</Text>}
       {email && <Text>{email}</Text>}
     </Flex>
